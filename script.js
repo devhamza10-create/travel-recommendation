@@ -18,7 +18,7 @@ const recommendations = {
   temples: [
     {
       name: "Angkor Wat",
-      image: "images/Angkor-wat-temple.jpg",
+      image: "images/Angkor-Wat-temple.jpg",
       description: "A famous historic temple complex in Cambodia and one of the largest religious monuments in the world."
     },
     {
