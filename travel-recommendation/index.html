@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Travel Recommendation | Home</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" type="image/jpeg" href="images/Angkor-Wat-temple.jpg"></head>
+<body>
+
+  <!-- ===== Navigation Bar ===== -->
+  <nav class="navbar">
+    <div class="logo">Travel Recommendation</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search destination... (beach, temple, country)" />
+      <button id="searchBtn">Search</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero / Introduction ===== -->
+  <section class="hero">
+    <h1>Welcome to Travel Recommendation</h1>
+    <p>
+      Discover beautiful beaches, historic temples, and amazing countries around the world.
+      Search for your favorite type of destination above and get instant travel recommendations
+      complete with photos and descriptions.
+    </p>
+  </section>
+
+  <!-- ===== Results Section ===== -->
+  <section id="results-section">
+    <h2>Recommendations</h2>
+    <div id="results">
+      <p class="empty-msg">Type "beach", "temple", or "country" in the search box above to see recommendations.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Travel Recommendation. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
