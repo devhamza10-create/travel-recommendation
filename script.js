@@ -31,12 +31,12 @@ const recommendations = {
   countries: [
     {
       name: "Japan",
-      image: "images/japan.jpg",
+      image: "images/Japan.jpg",
       description: "A country known for its rich culture, cutting-edge technology, and beautiful cherry blossoms."
     },
     {
       name: "Switzerland",
-      image: "images/switzerland.jpg",
+      image: "images/Switzerland.jpg",
       description: "Known for its breathtaking mountains, pristine lakes, and charming alpine villages."
     }
   ]
